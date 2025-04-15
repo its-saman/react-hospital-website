@@ -17,7 +17,7 @@ function App() {
   );
 }
 
-// Header Component
+
 function Header() {
   return (
     <header className="head">
@@ -35,7 +35,7 @@ function Header() {
   );
 }
 
-// Home Component
+
 function Home() {
   return (
     <section className="home" id="home">
@@ -51,7 +51,7 @@ function Home() {
   );
 }
 
-// Icons Container Component
+
 function IconsContainer() {
   return (
     <section className="icons-container">
@@ -79,7 +79,7 @@ function IconsContainer() {
   );
 }
 
-// Medic Component
+
 function Medic() {
   return (
     <section className="medic" id="medic">
@@ -96,13 +96,35 @@ function Medic() {
             <a href="#" className="fab fa-linkedin"></a>
           </div>
         </div>
-        {/* Add other doctor boxes similarly */}
+        <div class="box">
+        <img src="images/doc2.jpg" alt="">
+        <h3>christian harper</h3>
+        <span>neurologist</span>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
+          
+      <div class="box">
+        <img src="images/doc3.avif" alt="">
+        <h3>ava chen</h3>
+        <span>orthopedic</span>
+        <div class="share">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+      </div>
       </div>
     </section>
   );
 }
 
-// Services Component
+
 function Services() {
   return (
     <section className="services" id="services">
@@ -113,13 +135,44 @@ function Services() {
           <h3>free health checkups</h3>
           <a href="#" className="btn">learn more <span className="fas fa-chevron-right"></span></a>
         </div>
-        {/* Add other service boxes similarly */}
+
+        <div class="box">
+      <i class="fas fa-ambulance"></i>
+      <h3>24/7 ambulance</h3>
+      
+      <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+    </div>
+    <div class="box">
+      <i class="fas fa-user-md"></i>
+      <h3>expert doctors</h3>
+      
+      <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+    </div>
+    <div class="box">
+      <i class="fas fa-pills"></i>
+      <h3>medicines</h3>
+      
+      <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+    </div>
+    <div class="box">
+      <i class="fas fa-procedures"></i>
+      <h3>bed facility</h3>
+      
+      <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+    </div>
+    <div class="box">
+      <i class="fas fa-heartbeat"> </i>
+      <h3>total care</h3>
+      
+      <a href="#" class="btn">learn more <span class="fas fa-chevron-right"></span></a>
+    </div>
+
       </div>
     </section>
   );
 }
 
-// Book Component
+
 function Book() {
   return (
     <section className="book" id="book">
@@ -141,7 +194,7 @@ function Book() {
   );
 }
 
-// Review Component
+
 function Review() {
   return (
     <section className="review" id="review">
@@ -159,13 +212,25 @@ function Review() {
           </div>
           <p className="text">"Great service and compassionate care."</p>
         </div>
-        {/* Add other review boxes similarly */}
+        <div class="box">
+      <img src="images/p2.jpeg" alt="">
+      <h3>josh chen</h3>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        
+      </div>
+      <p class="text">"Highly recommended for their professionalism."</p>
+      </div>
       </div>
     </section>
   );
 }
 
-// About Component
+
 function About() {
   return (
     <section className="about" id="about">
@@ -185,7 +250,7 @@ function About() {
   );
 }
 
-// Footer Component
+
 function Footer() {
   return (
     <section className="footer">
@@ -193,9 +258,41 @@ function Footer() {
         <div className="box">
           <h3>easy access</h3>
           <a href="#"><i className="fas fa-chevron-right"></i>home</a>
-          {/* Add other links similarly */}
+          <a href="#"><i class="fas fa-chevron-right"></i>medic</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>services</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>review</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>appointment</a>
+          <a href="#"><i class="fas fa-chevron-right"></i>about</a>
         </div>
-        {/* Add other footer boxes similarly */}
+        
+        <div class="box">
+        <h3>services</h3>
+        <a href="#"><i class="fas fa-chevron-right"></i>cardiologists</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>orthopedic</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>physiotherapy</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>diagnosis</a>
+        <a href="#"><i class="fas fa-chevron-right"></i>ambulance </a>
+        
+        <a href="#"><i class="fas fa-chevron-right"></i>dermatologists</a>
+        
+      </div>
+      <div class="box">
+        <h3>contact info</h3>
+        <a href="#"><i class="fas fa-phone"></i>985756xxxx</a>
+        <a href="#"><i class="fas fa-phone"></i>948576xxxx</a>
+        <a href="#"><i class="fas fa-phone"></i>874627xxxx</a>
+        <a href="#"><i class="fas fa-envelope"></i>review</a>
+        <a href="#"><i class="fas fa-map-marker-alt"></i>edenburg, south africa</a>
+      </div>
+    
+      <div class="box">
+      <h3>follow us</h3>
+      <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+      <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+      <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+      </div>
+        
       </div>
     </section>
   );
