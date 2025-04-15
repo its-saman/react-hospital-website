@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
@@ -69,4 +69,4 @@ const Doctors = () => {
   );
 };
 
-export default Doctors; 
+export default Doctors; */
