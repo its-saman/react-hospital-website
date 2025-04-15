@@ -25,7 +25,7 @@ import {
   faLinkedin 
 } from '@fortawesome/free-brands-svg-icons'
 
-// Add all icons to the library
+
 library.add(
   faHeartbeat, 
   faStethoscope, 
