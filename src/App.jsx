@@ -213,7 +213,7 @@ function Review() {
           <p className="text">"Great service and compassionate care."</p>
         </div>
         <div class="box">
-      <img src="images/p2.jpeg" alt="">
+      <img src="images/p2.jpeg" alt="" />
       <h3>josh chen</h3>
       <div class="stars">
         <i class="fas fa-star"></i>
