@@ -51,8 +51,6 @@ Your feedback is always welcome and appreciated!
 
 📧 Email: samanfatima166@gmail.com
 
-📷 Instagram: @book.worm.bliss
-
 💼 LinkedIn: www.linkedin.com/in/saman-fatima0704
 
 Made with ❤️ by Saman Fatima
