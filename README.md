@@ -53,4 +53,6 @@ Your feedback is always welcome and appreciated!
 
 📷 Instagram: @book.worm.bliss
 
- Made with ❤️ by Saman Fatima
+💼 LinkedIn: www.linkedin.com/in/saman-fatima0704
+
+Made with ❤️ by Saman Fatima
