@@ -97,7 +97,7 @@ function Medic() {
           </div>
         </div>
         <div class="box">
-        <img src="images/doc2.jpg" alt="">
+        <img src="images/doc2.jpg" alt="" />
         <h3>christian harper</h3>
         <span>neurologist</span>
         <div class="share">
@@ -109,7 +109,7 @@ function Medic() {
       </div>
           
       <div class="box">
-        <img src="images/doc3.avif" alt="">
+        <img src="images/doc3.avif" alt="" />
         <h3>ava chen</h3>
         <span>orthopedic</span>
         <div class="share">

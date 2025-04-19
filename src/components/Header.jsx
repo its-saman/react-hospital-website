@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
         </Link>
         
         <div className="mobile-menu-icon" onClick={toggleMenu}>
-          <FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars} />
+          <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
         </div>
         
         <nav className={`nav-links ${isMenuOpen ? 'active' : ''}`}>

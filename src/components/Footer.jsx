@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
-  faFacebook, 
-  faTwitter, 
-  faInstagram, 
-  faLinkedin 
+  fas fa-facebook, 
+  fas fa-twitter, 
+  fas fa-instagram, 
+  fas fa-linkedin 
 } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
@@ -17,16 +17,16 @@ const Footer = () => {
           <p>Providing world-class healthcare services with compassion and excellence since 1995.</p>
           <div className="social-links">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faFacebook} />
+              <FontAwesomeIcon icon={fas fa-facebook} />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faTwitter} />
+              <FontAwesomeIcon icon={fas fa-twitter} />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={fas fa-instagram} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={fas fa-linkedin} />
             </a>
           </div>
         </div>
